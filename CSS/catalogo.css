@@ -37,7 +37,7 @@ h1 {
 }
 
 .container .box::before {
-    content: 'VELOCIRAPTOR';
+    content: 'ENGINES';
     position: absolute;
     top: 20 px;
     left: 20px;
@@ -50,7 +50,7 @@ h1 {
 }
 
 .container .box::after {
-    content: ' ENGINES';
+    content: 'VELOCIRAPTOR';
     position: absolute;
     margin-bottom: 50 px;
     right: 20px;
