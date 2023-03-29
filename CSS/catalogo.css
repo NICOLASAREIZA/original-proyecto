@@ -37,11 +37,11 @@ h1 {
 }
 
 .container .box::before {
-    content: 'GASO';
+    content: 'VELOCIRAPTOR';
     position: absolute;
     top: 20 px;
     left: 20px;
-    font-size: 4em;
+    font-size: 2em;
     font-weight: 900;
     color: rgb(139, 200, 241);
     font-size: italic;
@@ -50,11 +50,11 @@ h1 {
 }
 
 .container .box::after {
-    content: 'LINE';
+    content: ' ENGINES';
     position: absolute;
     margin-bottom: 50 px;
     right: 20px;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 900;
     color: rgb(247, 158, 158);
     font-size: italic;
