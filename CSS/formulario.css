@@ -1,8 +1,14 @@
 *{
     font-family: 'Bebas Neue', cursive;
 }
+.form-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
 form{
     border: 1px solid rgb(240,0,0);
+    width: 600px;
 }
 .form-title{
     width: 100%;
@@ -15,4 +21,7 @@ display: block;
 }
 input[type="radio"]{
     display: block;
+}
+.link{
+    text-decoration: none;
 }
