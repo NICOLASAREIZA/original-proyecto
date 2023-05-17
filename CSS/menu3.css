@@ -5,6 +5,12 @@
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Playfair Display', serif;
 }
+
+.imagen1 {
+    margin-top: 25px;
+    width: 10%;
+    height: 10vh;
+}
 .body{
     background-color: black;
 }
