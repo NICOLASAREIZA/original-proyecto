@@ -47,7 +47,8 @@ nav li:hover > ul > li{
     max-height: 500PX;
     overflow: visible;
     text-align: center;
-    border-right:  1px solid rgb(161, 159, 158);
+    border-left: 1px solid rgb(161, 159, 158);;
+    border-right: 1px solid rgb(161, 159, 158);
     border-bottom: 1px solid rgb(161, 159, 158) ;
 }
 nav li> ul > li:hover {
