@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./CSS/dashboard.css">
+    <title>Dash Board</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <a href="#" class="logo">
+            <i class='bx bx-code-alt'></i>
+            <div class="logo-name"><span>Link</span>Cafe</div>
+        </a>
+        <ul class="side-menu">
+            <li><a href="#"><i class='bx bxs-dashboard'></i>Panel</a></li>
+            <li><a href="#"><i class='bx bx-store-alt'></i>Comercio</a></li>
+            <li class="active"><a href="#"><i class='bx bx-analyse'></i>Analitica</a></li>
+            <li><a href="#"><i class='bx bx-message-square-dots'></i>Entradas</a></li>
+            <li><a href="#"><i class='bx bx-group'></i>Usuarios</a></li>
+            <li><a href="#"><i class='bx bx-cog'></i>Ajustes</a></li>
+        </ul>
+        <ul class="side-menu">
+            <li>
+                <a href="#" class="logout">
+                    <i class='bx bx-log-out-circle'></i>
+                    Cerrar sesión
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- End of Sidebar -->
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navbar -->
+        <nav>
+            <i class='bx bx-menu'></i>
+            <form action="#">
+                <div class="form-input">
+                    <input type="search" placeholder="Buscar...">
+                    <button class="search-btn" type="submit"><i class='bx bx-search'></i></button>
+                </div>
+            </form>
+            <input type="checkbox" id="theme-toggle" hidden>
+            <label for="theme-toggle" class="theme-toggle"></label>
+            <a href="#" class="notif">
+                <i class='bx bx-bell'></i>
+                <span class="count">12</span>
+            </a>
+            <a href="#" class="profile">
+                <img src="imagenes/images/logo.png">
+            </a>
+        </nav>
+
+        <!-- End of Navbar -->
+
+        <main>
+            <div class="header">
+                <div class="left">
+                    <h1>Panel</h1>
+                    <ul class="breadcrumb">
+                        <li><a href="#">
+                                Analitica
+                            </a></li>
+                        /
+                        <li><a href="#" class="active">Comercio</a></li>
+                    </ul>
+                </div>
+                <a href="#" class="report">
+                    <i class='bx bx-cloud-download'></i>
+                    <span>Descargar CSV</span>
+                </a>
+            </div>
+
+            <!-- Insights -->
+            <ul class="insights">
+                <li>
+                    <i class='bx bx-calendar-check'></i>
+                    <span class="info">
+                        <h3>
+                            2,255
+                        </h3>
+                        <p>Orden pagada</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-show-alt'></i>
+                    <span class="info">
+                        <h3>
+                            4,944
+                        </h3>
+                        <p>Visitas al sitio</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-line-chart'></i>
+                    <span class="info">
+                        <h3>
+                            27,721
+                        </h3>
+                        <p>Busquedas</p>
+                    </span>
+                </li>
+                <li><i class='bx bx-dollar-circle'></i>
+                    <span class="info">
+                        <h3>
+                            $8,742
+                        </h3>
+                        <p>Ventas totales</p>
+                    </span>
+                </li>
+            </ul>
+            <!-- End of Insights -->
+
+            <div class="bottom-data">
+                <div class="orders">
+                    <div class="header">
+                        <i class='bx bx-receipt'></i>
+                        <h3>Ordenes recientes</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-search'></i>
+                    </div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Usuarios</th>
+                                <th>Fecha de orden</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="./imagenes/images/profile-2.jpg">
+                                    <p>Sergio Vargas</p>
+                                </td>
+                                <td>28-07-2002</td>
+                                <td><span class="status completed">Terminado</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="imagenes/images/profile-1.jpg">
+                                    <p>Andres España</p>
+                                </td>
+                                <td>20-12-2003</td>
+                                <td><span class="status pending">Pendiente</span></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="imagenes/images/5555.jpg">
+                                    <p>Kevin Andrade</p>
+                                </td>
+                                <td>25-08-2003</td>
+                                <td><span class="status process">Procesado</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Reminders -->
+                <div class="reminders">
+                    <div class="header">
+                        <i class='bx bx-note'></i>
+                        <h3>Recordatorios</h3>
+                        <i class='bx bx-filter'></i>
+                        <i class='bx bx-plus'></i>
+                    </div>
+                    <ul class="task-list">
+                        <li class="completed">
+                            <div class="task-title">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Iniciar nuestra reunión</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="completed">
+                            <div class="task-title">
+                                <i class='bx bx-check-circle'></i>
+                                <p>Analiza nuestro sitio</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                        <li class="not-completed">
+                            <div class="task-title">
+                                <i class='bx bx-x-circle'></i>
+                                <p>Jugar Futbol</p>
+                            </div>
+                            <i class='bx bx-dots-vertical-rounded'></i>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- End of Reminders-->
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="./javascript/dashboard.js"></script>
+</body>
+
+</html>

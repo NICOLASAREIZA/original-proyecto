@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="./CSS/amazon.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="nav-logo">
+        <a href="#"><img src="imagenes/amazon/ORI.JPG" alt="logo"></a>
+      </div>
+      <div class="address">
+        <a href="#" class="deliver">Enviar a</a>
+        <div class="map-icon">
+          <span class="material-symbols-outlined">location_on</span>
+          <a href="#" class="location">Colombia</a>
+        </div>
+      </div>
+
+      <div class="nav-search">
+        <select class="select-search">
+          <option>Todos</option>
+          <option>Todas Las Categorias</option>
+          <option>Amazon Devices</option>
+        </select>
+        <input type="text" placeholder="Buscar Amazon" class="search-input">
+        <div class="search-icon">
+          <span class="material-symbols-outlined">search</span>
+        </div>
+      </div>
+
+      <div class="sign-in">
+       <a href="#"> <p>Hola,Identificate</p>
+        <span>Cuentas y Listas</span></a>
+      </div>
+
+      <div class="returns">
+        <a href="#"><p>Devoluciones</p>
+          <span>y Pedidos</span></a>
+      </div>
+
+      <div class="cart">
+        <a href="#">
+          <span class="material-symbols-outlined cart-icon">shopping_cart</span>
+          </a>
+          <p>Carrito</p>
+      </div>
+    </nav>
+    
+    <div class="banner">
+      <div class="banner-content">
+        <div class="panel">
+          <span class="material-symbols-outlined">menu</span>
+          <a href="#">Todo</a>
+        </div>
+
+        <ul class="links">
+          <li><a href="#">Ofertas del Día</a></li>
+          <li><a href="#">Servicio al Cliente</a></li>
+          <li><a href="#">Listas</a></li>
+          <li><a href="#">Tarjetas de Regalo</a></li>
+          <li><a href="#">Vender</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="vinculos">
+        <ul class="enlaces">
+          <li><a href="#" class="iconos"><span class="icono"></span> Hogar y cocina</a></li>
+          <li><a href="#"><span class="icono">></span> Cocina y comedor</a></li>
+          <li><a href="#"><span class="icono">></span> Comida y entretenimiento</a></li>
+          <li><a href="#"><span class="icono">></span> Vajilla y servicio</a></li>
+          <li><a href="#"><span class="icono">></span> Vajilla</a></li>
+          <li><a href="#"><span class="icono">></span> Vajilla para bebidas</a></li>
+          <li><a href="#"><span class="icono">></span> Decantadores de licores</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div>
+    <div class="contenedor-imagen">
+  <div class="imagen21">
+    <img src="imagenes/amazon/imagen del inicio.jpg" id="abrirModal" alt="Abrir Modal">
+  </div>
+  <div class="descripcion-principal">
+    <span id="descripcionPrincipal">Regalos para hombres, papá, Kollea, juego de decantador de whisky de 22 onzas y 4 vasos con telescopio de observación de 5 onzas, ideas únicas de regalo de aniversario, cumpleaños, Navidad para él, esposo, abuelo, dispensador de licor fresco para bar</span>
+  </div>
+  <div>
+    <ul class="enlace">
+      <li><a href="#">Visita la tienda de kollea</a></li>
+    </ul>
+  </div>
+  <div class="numerosEstrellas">
+    <span>4.4</span>
+  </div>
+  <div class="star-rating">
+    
+    <input type="radio" name="rating" value="1" id="1star">
+    <label for="1star"></label>
+
+    <input type="radio" name="rating" value="2" id="2star">
+    <label for="2star"></label>
+
+    <input type="radio" name="rating" value="3" id="3star">
+    <label for="3star"></label>
+
+    <input type="radio" name="rating" value="4" id="4star">
+    <label for="4star"></label>
+
+    <input type="radio" name="rating" value="5" id="5star">
+    <label for="5star"></label>
+  </div>
+</div>
+
+    
+
+    <div class="contenido-extra">
+      <p>En proceso........</p>
+    </div>
+    <div class="miniaturas_principales">
+      <img src="imagenes/amazon/modal 1.11jpg.jpg" alt="Imagen 1" class="miniaturaPri">
+      <img src="imagenes/amazon/modal 2.jpg" alt="Imagen 2" class="miniaturaPri">
+      <img src="imagenes/amazon/modal 3.jpg" alt="Imagen 3" class="miniaturaPri">
+      <img src="imagenes/amazon/modal 4.jpg" alt="Imagen 4" class="miniaturaPri">
+      <img src="imagenes/amazon/modal 5.jpg" alt="Imagen 5" class="miniaturaPri">
+      <img src="imagenes/amazon/modal 6.jpg" alt="Imagen 6" class="miniaturaPri">
+    </div>
+  </div>
+ 
+
+
+  <div id="miModal" class="modal">
+    <div class="modal-contenido">
+      <span id="cerrarModal" class="cerrar">&times;</span>
+      <div class="modal-barra">
+        <div class="barra-opcion activa">Imágenes</div>
+      </div>
+      <div class="modal-cuerpo">
+        <div class="imagen-modal">
+          <img id="imagenModal" src="imagenes/amazon/modal 1.11jpg.jpg" alt="Imagen en el modal">
+        </div>
+        <div class="descripcion-miniaturas">
+          <div class="descripcion-Modal">
+            <span id="descripcionModal">
+              Regalos para hombres, papá, juego de decantador de whisky Kollea de 22 onzas y 4 vasos con telescopio de observación de 5 onzas, ideas únicas de regalos de aniversario, cumpleaños, Navidad para él...</span>
+          </div>
+          <div class="miniaturas">
+            <img src="imagenes/amazon/modal 1.11jpg.jpg" alt="Imagen 1" class="miniatura1">
+            <img src="imagenes/amazon/modal 2.jpg" alt="Imagen 2" class="miniatura">
+            <img src="imagenes/amazon/modal 3.jpg" alt="Imagen 3" class="miniatura">
+            <img src="imagenes/amazon/modal 4.jpg" alt="Imagen 4" class="miniatura">
+            <img src="imagenes/amazon/modal 5.jpg" alt="Imagen 5" class="miniatura">
+            <img src="imagenes/amazon/modal 6.jpg" alt="Imagen 6" class="miniatura">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript/amazon.js"></script>
+  <script src="js/zoom.js"></script>
+</body>
+</html>

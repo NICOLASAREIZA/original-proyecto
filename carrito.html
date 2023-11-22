@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/carrito.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="iconos/all.css">
+    <title>Compras</title>
+</head>
+<body>
+    <div class="main-content">
+        <div class="box-subtotal">
+            <label>Subtotal cop <span class="signo-final">$</span></label>
+            <label id="Subtotal">0</label>
+        </div>
+        <div class="box-proceder-pago">
+            <label>Proceder al pago</label>
+            <label>(<span id="numero-productos" class="espacio">0</span>Productos)</label>
+        </div>
+
+        <div class="product-content">
+            <div class="box-imagen">
+                <img src="imagenes/carrito/vokca principal.jpg" alt="">
+            </div>
+            <div class="box-texto">
+                <h3 class="book-title">Vokca Rey Goose</h3>
+                <label class="book-descripcion">Un licor de calidad premium, originalmente hecho en Francia y 
+                    llevado al mercado estadounidense; es uno de los mejores vodkas franceses,
+                    con un toque único que no posee otro licor.</label>
+                    <label class="book-autor">Sidney Frank </label>
+                    <label class="cover-type">Un Elisir</label>
+                    <label class="info-precio">cop <span class="signo-precio">$</span><span id="preciounidad"  class="precio-unidad">0</span></label>
+                <!--<p>un licor de calidad premium, originalmente hecho en Francia y 
+                    llevado al mercado estadounidense; es uno de los mejores vodkas franceses,
+                    con un toque único que no posee otro licor.</p> -->
+            </div>
+        </div>
+        <div id="boxbotoncantidad" class="box-boton-cantidad">
+            <div id="boxminus" class="box-minus"><i class="fa-solid fa-minus"></i></div>
+            <div id="boxcant" class="box-cant">0</div>
+            <div id="boxplus" class="box-plus"><i class="fa-solid fa-plus"></i></div>
+        </div>  
+    </div>
+
+    <script src="javascript/carrito.js"></script>
+</body>
+</html>

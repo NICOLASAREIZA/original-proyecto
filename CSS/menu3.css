@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.imagen1 {
+    margin-top: 25px;
+    width: 10%;
+    height: 10vh;
+}
+.body{
+    background-color: black;
+}
+
+.bar-menu{
+    color: rgb(228, 222, 222);
+    font-size: 2.2em;
+    position: absolute;
+    visibility: hidden;
+    top: 15px;
+    left: 30px;
+    cursor: pointer;
+}
+.main-nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(177, 27, 27, 0.951);
+    height: 80px;
+}
+.main-menu{
+    list-style: none;
+    text-align: right;
+}
+a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.menu-1{
+    height: 81px;
+    display: inline-block;
+    padding: 27px 40px;
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(77, 62, 62);
+}
+p{
+    margin: 120px 60px;
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+@media only screen and (max-width: 768px) {
+    /*.main-menu{
+        background-color: rgb(96, 96, 96,.9);
+        margin-top: 81px;
+        padding: 0;
+    }*/
+    .main-nav{
+        height: 80px;;
+    }
+    .main-menu{
+        display: none; 
+    }
+    .main-menu-visible{
+        display: block;
+        background-color: rgba(177, 27, 27, 0.951);
+        /* margin-top: 81px; */
+        padding: 0;
+    }
+    .menu-1{
+        
+        width: 100%;
+        display: block;
+        text-align: center;
+        visibility: visible;
+        border-bottom: 1px solid white;
+        line-height: 80px;
+        padding: 0;
+    }
+    a:hover{
+        background-color: rgba(77, 62, 62);
+    }
+    .bar-menu{
+        visibility: visible;
+    }
+}

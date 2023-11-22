@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%vh;
+    background: url(../imagenes/tablas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    border-collapse: collapse;
+}
+
+th, td {
+    /*border: 1px solid rgb(64, 64, 64);*/
+    padding: 10px 15px 8px 15px;
+    text-align: center;
+}
+table-box{
+    display: flex;
+    justify-content: center;
+}
+.di-color {
+    background-color: aqua;
+    border-top-left-radius: 20px;
+    color:rgb(0, 0, 0)
+}
+
+.pro{
+    background-color: aqua;
+    color:rgb(0, 0, 0)
+}
+.basic{
+    background-color: rgb(73, 167, 79);
+    color:rgb(0, 0, 0)
+}
+.silver{
+    background-color: rgb(77, 97, 214);
+    color:rgb(0, 0, 0)
+}
+.golden{
+    background-color: rgb(235, 214, 21);
+    color:rgb(0, 0, 0)
+}
+.titanium{
+    background-color: rgb(130, 173, 163);
+    border-top-right-radius: 20px;
+    color:rgb(0, 0, 0)
+}
+.one{
+    background-color: aqua;
+    border-bottom-left-radius: 20px;
+    color:rgb(0, 0, 0)
+}
+.two{
+    background-color: aqua;
+    color:rgb(0, 0, 0)
+}
+
+.four{
+    background-color: aqua;
+    color:rgb(0, 0, 0)
+}
+.si-esquina-abajo{
+    background-color: rgb(127, 145, 145);
+    border-bottom-right-radius: 20px;
+    color:rgb(0, 0, 0)
+}
+.five{
+    background-color: rgb(127, 145, 145);
+    color:rgb(0, 0, 0)
+}

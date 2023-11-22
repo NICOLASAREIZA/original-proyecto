@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: 1s all;
+}
+body{
+    background: url(../imagenes/iconos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: aliceblue;
+}
+
+.lateral {
+    width: 230px;
+    height: 100vh;
+    border: 1px solid rgba(128, 128, 128, 0.191);
+}
+
+.lateral:hover {
+    overflow-y: scroll;
+}
+
+.lateral.close {
+    width: min-content;
+    overflow-y: hidden;
+}
+
+.lateral.close > ul > li > p {
+    display: none;
+}
+
+.lateral > .btn-menu {
+    padding: 15px;
+}
+
+.lateral > .btn-menu > i{
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.lateral > .btn-menu > i:hover {
+    background-color: gray;
+    transition: 1s all ease;
+    color: white;
+    border-radius: 5px;
+}
+
+.lateral > ul > li {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.lateral > ul > li > i {
+    color: gray;
+}
+
+.lateral > ul > li > p {
+    font-size: 14px;
+}

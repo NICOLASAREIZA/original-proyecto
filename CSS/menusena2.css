@@ -1,0 +1,87 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+.menu-1{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 0 5px 10px rgb(0 0 0 / 30%), 0 0 10px rgb(0 0 0 / 10%) inset;
+}
+.menu_principal {
+    background-color: rgba(0, 0, 0, 0.171);
+}
+.box1 {
+    display: inline-block;
+    border-right: 1px solid rgba(0, 175, 0, 0.845);
+    padding: 5px 10px;
+    list-style-type: none; 
+    text-decoration: none;
+}
+.box{
+color: black;
+}
+
+.menu-2 {
+    display: inline-block;
+    color: white;
+    font-family: 'roboto', sans-serif;
+    font-weight: 400;
+    width: 300px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    margin-left:1%;
+    
+
+
+}
+.item-vertical {
+    background-color: rgb(155, 147, 147);
+    margin: 5px;
+    border-radius: 10px;
+    padding: 12px;
+    list-style: none
+    
+
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+li:hover {
+    font-size: 1.1em;
+    background-color: rgb(226, 131, 22);
+    border-radius: 10px;
+}
+hr{
+    margin-top: 40px;
+    border: 0.5px dashed rgb(111, 177, 35);
+}
+.logo{
+    width: 100%;
+    
+    display: inline-block;
+
+}
+.arriba{
+width: 100%;
+}
+
+
+
+
+.fa-solid {
+    font-size: 1em;
+    text-align: center;
+    margin: 7px 14px;
+}
+
+
+
+
+

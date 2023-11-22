@@ -1,0 +1,519 @@
+* {
+  margin: 0;
+  padding: 0px 0px 0px 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+/* Header or Navbar */
+header {
+  width: 100%;
+  background-color: #000000;
+}
+
+.navbar {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fff;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.nav-logo img {
+  width: 500px;
+  /*max-width: 90px;*/
+  height: 70px;
+  position: relative;
+  margin-top: 10px;
+  width: 128px;
+  left: -200px;
+  padding: 0px 0px 10px 0px;
+}
+
+.address .deliver {
+margin-left: 20px;
+font-size: 0.75rem;
+color: #ccc;
+position: relative;
+left: -150px;
+}
+
+.address .map-icon {
+display: flex;
+align-items: center;
+position: relative;
+left: -150px;
+}
+
+
+.nav-search {
+display: flex;
+justify-content: space-evenly;
+width: 800px;
+height: 40px;
+border-radius: 4px;
+position: relative;
+left: -90px;
+}
+
+
+
+.select-search  {
+background: #f3f3f3;
+width: 80px;
+text-align: center;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+border: none;
+}
+
+.search-input {
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+/*.search-input,.select-search,.nav-search:focus{
+border: 1px solid orange;
+}*/
+
+.nav-search{
+display: flex;
+border: 2px solid transparent;
+border-radius: 5px;
+padding: 0px;
+}
+
+.nav-search:focus-within{
+border: 3px solid orange;
+}
+
+.nav-search input{
+flex: 1;
+border: none;
+padding: 5px;
+
+}
+
+.search-icon {
+max-width: 70px;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.2rem;
+background: #febd68;
+color: #000;
+cursor: pointer;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+}
+
+.sign-in p,
+.returns p {
+  font-size: 0.75rem;
+}
+
+.sign-in,
+.returns span {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.cart {
+display: flex;
+position: relative;
+
+}
+
+.cart .cart-icon {
+font-size: 2.5rem;
+position: relative;
+right: -190px;
+}
+
+.cart p {
+margin-top: 20px;
+font-weight: 500;
+position: relative;
+right: -190px;
+}
+
+.banner {
+padding: 10px 20px;
+background: #222f3d;
+color: #fff;
+font-size: 0.875rem;
+}
+
+.banner-content {
+margin: 0 auto;
+max-width: 1280px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.panel {
+max-width: 1280px;
+display: flex;
+align-items: center;
+gap: 5px;
+cursor: pointer;
+position: relative;
+left: -200px;
+}
+
+.panel span {
+margin-right: 7px;
+}
+
+.links {
+display: flex;
+align-items: center;
+list-style: none;
+gap: 15px;
+flex-grow: 1;
+margin-left: 15px;
+position: relative;
+left: -200px;
+}
+
+.links a {
+padding: 10px 0;
+}
+.returns{
+  width: 200PX;
+  position: relative;
+  right: -117px;
+  
+}
+
+.sign-in{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  position: relative;
+  padding: 0px 100px 0px 20px;
+  right: -50px;
+}
+
+/* Estilos para el contenedor de la imagen y la descripción */
+.contenedor-imagen {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilos para la imagen */
+.imagen21 {
+  max-width: 100%; 
+  margin: 0 auto; 
+  padding: 20px; 
+}
+
+.imagen21 img {
+  width: 700px; 
+  height: 500px; 
+}
+
+/* Estilos para la descripción principal */
+.descripcion-principal {
+  font-size: 25px;
+  max-width: 60%; /* Ajusta según sea necesario */
+  margin-left: 20px; /* Espacio entre la imagen y el texto, ajusta según sea necesario */
+  white-space: pre-line;
+  font-weight: bold;
+  margin-right: 350px;
+  margin-top: -260px;
+}
+
+/* Estilos para el contenido adicional */
+.contenido-extra {
+  max-width: 100%;
+  margin-top: 20px; /* Ajusta según sea necesario */
+  margin-left: 260px;
+}
+
+.contenido-extra p {
+  font-size: 1rem; /* Ajusta según sea necesario */
+  color: #333;
+}
+
+/*Estilos del enlace debajo de la descripción principal*/
+.enlace {
+  display: flex;
+  width: 190px;
+  list-style: none;
+  margin-left: -795px;
+  margin-top: 85px;
+}
+
+.enlace li a {
+  text-decoration: none;
+  color: #0d6532; /* Verde esmeralda */
+  transition: color 0.3s, text-decoration 0.3s; /* Transición suave para el color y el subrayado */
+}
+
+.enlace li a:hover {
+  color: #e74c3c; /* Rojo al pasar el cursor */
+  text-decoration: underline; /* Subrayado al pasar el cursor */
+  cursor: pointer; /* Cambia el cursor a una manita al pasar el cursor */
+}
+
+/*Numeros de las estrellas*/
+
+.numerosEstrellas{
+  display: flex;
+  margin-top: 145px;
+}
+
+.numerosEstrellas span{
+  margin-left: -795px;
+}
+
+
+/*Estilos de las estrellas*/
+.star-rating {
+  font-size: 0;
+  margin: 10px auto;
+  position: relative;
+  display: flex;
+  left: -770px;
+  margin-top: 150px;
+  
+}
+
+.star-rating input[type="radio"] {
+  display: none;
+}
+
+.star-rating label {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  color: #c3c3c3;
+}
+
+.star-rating input[type="radio"]:checked ~ label {
+  color: #f5d320;
+}
+
+.star-rating label::before {
+  content: '\2605'; /* Código de estrella en Unicode */
+  margin: 0 5px;
+}
+
+
+
+/* Estilos de las miniaturas principales */
+.miniaturas_principales {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 20px; /* Ajusta según sea necesario */
+  margin-left: 60px;
+  margin-bottom: 60px;
+}
+
+.miniaturaPri {
+  cursor: pointer;
+  padding: 5px; /* Ajusta el padding según sea necesario para separar el borde de la imagen */
+  width: 100px; /* Cambié max-width a width */
+  height: 100px; /* Cambié max-height a height */
+  object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la proporción */
+  border-radius: 9px;
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Agregamos transición al borde y la sombra para un efecto suave */
+}
+
+.miniaturaPri:hover {
+  border: 2px solid #00f; /* Color azul neón para el borde al pasar el cursor */
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.5); /* Agregamos sombreado al borde */
+}
+
+
+
+
+
+/*Estilos del tercer div que tiene vinculos*/
+
+.vinculos {
+  background-color: white;
+  border-bottom: 1px solid #ccc; /* Línea gris debajo de la sección de vínculos */
+}
+
+/* Estilos para la lista de enlaces */
+.enlaces {
+  display: flex;
+  list-style: none;
+  background-color: white;
+}
+
+.enlaces li {
+  padding: 10px; /* Ajusta según sea necesario */
+}
+
+.enlaces a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem; /* Letra más pequeña, ajusta según sea necesario */
+  transition: text-decoration 0.3s, color 0.3s; /* Transición suave para el subrayado y el cambio de color */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.enlaces a:hover {
+  text-decoration: underline; /* Subrayado al pasar el cursor */
+  color: #555; /* Cambio de color al pasar el cursor */
+  cursor: pointer; /* Cambia el cursor a una manita al pasar el cursor */
+}
+
+.icono {
+  margin-right: 10px; /* Espacio entre el icono y el texto */
+  font-size: 10px; /* Tamaño del icono, ajusta según sea necesario */
+}
+
+.iconos{
+  margin-top: 3px;
+}
+
+
+/* Estilo del modal */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.modal-contenido {
+  background-color: white;
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  height: 80%;
+  width: 94%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cerrar {
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.modal-barra {
+  border-bottom: 1px solid gray;
+  display: flex;
+}
+
+.barra-opcion {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.barra-opcion.activa {
+  border-bottom: 2px solid gray;
+  
+}
+
+.modal-cuerpo {
+  display: flex;
+  flex-direction: row;
+}
+
+.imagen-modal {
+  flex: 0 0 70%; /* 70% de ancho */
+}
+
+.imagen-modal img {
+  width: 70%;
+  height: 70%;
+  margin-top: 30px;
+  display: flex;
+  margin-left: 160px;
+  transition: transform 0.3s  ease-in-out;
+    --x: 50%;
+    --y: 50%;
+    transform: scale(var(--zoom));
+    transform-origin: var(--x) var(--y);
+    clip-path: inset(calc((1 - 1/var(--zoom)) * (var(--y))) calc((1 - 1/var(--zoom)) * (100% - var(--x))) calc((1 - 1/var(--zoom)) * (100% - var(--y))) calc((1 - 1/var(--zoom)) * (var(--x))));
+    cursor: zoom-in;
+
+}
+
+#imagen-modal:hover {
+  --zoom: 2;
+}
+
+.descripcion-miniaturas {
+  flex: 1;
+  padding: 20px; /* Ajusta el padding según sea necesario */
+  font-size: 25px;
+}
+
+.descripcion-Modal {
+  text-align: justify;
+  white-space: inherit;
+  overflow: visible;
+  text-overflow: ellipsis;
+  height: 28px;
+  margin-top: 20px;
+}
+
+/* Estilos de las miniaturas */
+.miniaturas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* Ajusta según sea necesario */
+  margin-top: 190px; /* Ajusta según sea necesario */
+}
+
+.miniatura, .miniatura1 {
+  cursor: pointer;
+  padding: 3px; /* Ajusta el padding según sea necesario para separar el borde de la imagen */
+  max-width: 70px;
+  max-height: 70px;
+  overflow: hidden;
+  border-radius: 9px;
+  transition: border 0.3s ease, box-shadow 0.3s ease; /* Agregamos transición al borde y la sombra para un efecto suave */
+}
+
+.miniatura:hover, .miniatura1:hover {
+  border: 2px solid #00f; /* Color azul neón para el borde al pasar el cursor */
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* Agregamos sombreado al borde */
+}
+
+
+
+
+

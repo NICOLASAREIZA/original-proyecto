@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/formulario.css">
+    <title>formulario</title>
+</head>
+<body> 
+<div class="main-box">
+    <div class="content-box">
+        <div class="form-title">
+            <h1">AVIANCA-TIQUETES</h1>
+        </div>
+        <div class="form-box">
+            <form>
+                <label> Ingrese el numero de documento </label>
+                <input type="text">
+        
+                <label>Ingrese el tipo de documento</label>
+                <select name=" Tipo de documento ">
+                    <option value="cc">Cedula de Ciudadania</option>
+                    <option value="ti">Tarjeta de Identidad</option>
+                    <option value="ti">Registro Civil</option>
+                    <option value="ti">Cedula Extranjera</option>
+                </select>
+                <label>Por favor seleccione la clase</label>
+                <input type="radio" name="clase-vuelo">primera clase<br>
+                <input type="radio" name="clase-vuelo">busine clase<br>
+                <input type="radio" name="clase-vuelo">clase turista<br>
+                <label>Por favor, seleccione el dia para visualizar los vuelos disponibles</label>
+                <input type="checkbox" name="disponibilidad" value="2023-04-19">Miercoles,19 de abril del 2023<br>
+                <input type="checkbox" name="disponibilidad" value="2023-04-20">jueves,20 de abril del 2023<br>
+                <input type="checkbox" name="disponibilidad" value="2023-04-21">viernes,21 de abril del 2023<br>
+                <input type="checkbox" name="disponibilidad" value="2023-04-22">sabado,22 de abril del 2023<br>
+                <input type="button" value="ENVIAR">
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

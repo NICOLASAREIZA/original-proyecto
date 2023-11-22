@@ -1,0 +1,58 @@
+.h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.mai.-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.box-style{
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-align: justify;
+    letter-spacing: 0;
+    word-spacing: 0;
+    line-height: 1.4em;
+}
+
+body {
+    background: url(../imagenes/margenes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.box-1 {
+    border: 2px solid rgba(0, 255, 85, 0.9);
+    background-color: rgb(63, 62, 62);
+}
+
+
+.box-2 {
+    border: 2px dashed darkblue;
+    background-color: rgb(22, 241, 14);
+}
+
+
+.box-3 {
+    border: 2px dotted rgb(175, 221, 22);
+    background-color: rgb(179, 102, 16);
+}
+
+
+.box-4 {
+    border: 10px double rgb(10, 18, 143);
+    background-color: rgb(5, 230, 238);
+}
+
+
+a {
+    color: chartreuse;
+}

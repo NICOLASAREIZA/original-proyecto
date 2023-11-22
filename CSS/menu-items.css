@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    background-color: rgb(224, 224, 224);
+    font-size: 1.3rem;
+    width: 100%;
+}
+nav ul{
+    width: 100%;
+    text-align: left;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(112, 109, 109);
+}
+/*primer menu*/
+.first-item{
+    margin-left: 50px;
+}
+nav > ul > li{
+    display: inline-block;
+    width: 250px;
+    line-height: 70px;
+    text-align: center;
+}
+    nav > ul > li:hover{
+        background-color: rgb(197, 87, 48);
+        cursor: pointer;
+    }
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+ul li{
+    position: relative;
+}
+/*segundo nivel*/
+
+nav li li{
+    max-height: 0;
+    overflow: hidden;
+}
+nav li:hover > ul > li{
+    max-height: 500PX;
+    overflow: visible;
+    text-align: center;
+    border-left: 1px solid rgb(161, 159, 158);;
+    border-right: 1px solid rgb(161, 159, 158);
+    border-bottom: 1px solid rgb(161, 159, 158) ;
+}
+nav li> ul > li:hover {
+background-color: rgb(146, 49, 14);
+cursor: pointer;
+}
+
+/*Tercer menu*/
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}

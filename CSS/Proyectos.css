@@ -1,0 +1,43 @@
+/* Estilos para la lista */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+  /* Estilos para los elementos de la lista */
+li {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+  /* Estilos para los enlaces */
+a {
+    display: inline-block;
+    padding: 50px;
+    text-decoration: none;
+    color: #000;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+  /* Estilos para los enlaces al pasar el cursor */
+a:hover {
+    background-color: #8a7e7e;
+}
+
+  /* Estilos para las animaciones */
+@keyframes slideIn {
+    0% {
+    transform: translateX(-100%);
+    }
+    100% {
+    transform: translateX(0);
+    }
+}
+
+  /* Estilos para aplicar las animaciones */
+li {
+    animation: slideIn 0.5s ease forwards;
+    animation-delay: 0.2s;
+}
