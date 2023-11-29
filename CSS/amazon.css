@@ -437,7 +437,6 @@ padding: 10px 0;
 .barra-opcion {
   flex: 1;
   padding: 10px;
-  text-align: center;
   cursor: pointer;
 }
 
